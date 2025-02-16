@@ -42,7 +42,7 @@ IF NOT EXIST "%APP_PATH%\.vim\bundle" (
 )
 
 IF NOT EXIST "%HOME%/.vim/bundle/vundle" (
-    call git clone https://github.com/randall-vx/vundle.git "%HOME%/.vim/bundle/vundle"
+    call git clone https://github.com/randall-vx/Vundle.vim.git "%HOME%/.vim/bundle/vundle"
 ) ELSE (
   call cd "%HOME%/.vim/bundle/vundle"
   call git pull
